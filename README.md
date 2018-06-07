@@ -35,18 +35,18 @@ registrador: 8 bits <br />
   	</tr>
   	<tr>
 		<th>3</th>
-    		<td>MOVWF</td>
-    		<td><tt>0 0000 0100 0000</tt></td>
-  	</tr>
-  	<tr>
-		<th>4</th>
     		<td>SLEEP</td>
     		<td><tt>0 0000 0110 0011</tt></td>
   	</tr>
   	<tr>
-		<th>5</th>
+		<th>4</th>
     		<td>CLRWDT</td>
     		<td><tt>0 0000 0110 0100</tt></td>
+  	</tr>
+  	<tr>
+		<th>5</th>
+    		<td>MOVWF</td>
+    		<td><tt>0 0000 01ff ffff</tt></td>
   	</tr>
   	<tr>
 		<th>6</th>
@@ -100,33 +100,33 @@ registrador: 8 bits <br />
   	</tr>
   	<tr>
 		<th>16</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>INCF</td>
+    		<td><tt>0 0101 0dff ffff</tt></td>
   	</tr>
   	<tr>
 		<th>17</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>DECFSZ</td>
+    		<td><tt>0 0101 1dff ffff</tt></td>
   	</tr>
   	<tr>
 		<th>18</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>RRF</td>
+    		<td><tt>0 0110 0dff ffff</tt></td>
   	</tr>
   	<tr>
 		<th>19</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>RLF</td>
+    		<td><tt>0 0110 1dff ffff</tt></td>
   	</tr>
   	<tr>
 		<th>20</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>SWAPF</td>
+    		<td><tt>0 0111 0dff ffff</tt></td>
   	</tr>
   	<tr>
 		<th>21</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>INCFSZ</td>
+    		<td><tt>0 0111 1dff ffff</tt></td>
   	</tr>
   	<tr>
 		<th>22</th>
@@ -190,11 +190,6 @@ registrador: 8 bits <br />
   	</tr>
   	<tr>
 		<th>34</th>
-    		<td></td>
-    		<td><tt></tt></td>
-  	</tr>
-  	<tr>
-		<th>35</th>
     		<td></td>
     		<td><tt></tt></td>
   	</tr>
