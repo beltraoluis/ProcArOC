@@ -4,9 +4,9 @@ especificações do processados
 
 <-------------------------------------------------------------------------------
 
-opcode: 13 bits
-endereço: 6 bits
-registrador: 8 bits
+opcode: 13 bits &#013;
+endereço: 6 bits &#013;
+registrador: 8 bits &#013;
 
 <-------------------------------------------------------------------------------
 
