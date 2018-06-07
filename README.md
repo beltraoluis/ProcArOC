@@ -130,67 +130,67 @@ registrador: 8 bits <br />
   	</tr>
   	<tr>
 		<th>22</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>BCF</td>
+    		<td><tt>0 100b bbff ffff</tt></td>
   	</tr>
   	<tr>
 		<th>23</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>BSF</td>
+    		<td><tt>0 101b bbff ffff</tt></td>
   	</tr>
   	<tr>
 		<th>24</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>BTFSC</td>
+    		<td><tt>0 110b bbff ffff</tt></td>
   	</tr>
   	<tr>
 		<th>25</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>BTFSS</td>
+    		<td><tt>0 111b bbff ffff</tt></td>
   	</tr>
   	<tr>
 		<th>26</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>CALL</td>
+    		<td><tt>1 00kk kkkk kkkk</tt></td>
   	</tr>
   	<tr>
 		<th>27</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>GOTO</td>
+    		<td><tt>1 01kk kkkk kkkk</tt></td>
   	</tr>
   	<tr>
 		<th>28</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>MOVLW</td>
+    		<td><tt>1 1000 kkkk kkkk</tt></td>
   	</tr>
   	<tr>
 		<th>29</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>ANDLW</td>
+    		<td><tt>1 1001 kkkk kkkk</tt></td>
   	</tr>
   	<tr>
 		<th>30</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>RETLW</td>
+    		<td><tt>1 1010 kkkk kkkk</tt></td>
   	</tr>
   	<tr>
 		<th>31</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>IORLW</td>
+    		<td><tt>1 1100 kkkk kkkk</tt></td>
   	</tr>
   	<tr>
 		<th>32</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>XORLW</td>
+    		<td><tt>1 1101 kkkk kkkk</tt></td>
   	</tr>
   	<tr>
 		<th>33</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>SUBLW</td>
+    		<td><tt>1 1110 kkkk kkkk</tt></td>
   	</tr>
   	<tr>
 		<th>34</th>
-    		<td></td>
-    		<td><tt></tt></td>
+    		<td>ADDLW</td>
+    		<td><tt>1 1111 kkkk kkkk</tt></td>
   	</tr>
 </table> 
