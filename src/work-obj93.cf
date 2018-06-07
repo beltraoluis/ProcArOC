@@ -1,4 +1,7 @@
 v 4
+file . "mux16sl2.vhd" "25e92e6d5a1631f3d30d4e345193d4b6a371ef7c" "20180607003144.637":
+  entity mux16sl2 at 1( 0) + 0 on 65;
+  architecture a_mux16sl2 of mux16sl2 at 16( 361) + 0 on 66;
 file . "mux13sl2.vhd" "570274bc3caed39eea4690ac3a24806bda118f04" "20180607000704.757":
   entity mux13sl2 at 1( 0) + 0 on 61;
   architecture a_mux13sl2 of mux13sl2 at 16( 361) + 0 on 62;
@@ -38,3 +41,6 @@ file . "ula_tb.vhd" "0ec140082a048b7a71be0e55002da86502cd59c2" "20180512210507.2
 file . "banco_reg_tb.vhd" "82ec462918f600900ffedcf034619fe709fed7cd" "20180606234941.664":
   entity banco_reg_tb at 1( 0) + 0 on 51;
   architecture a_banco_reg_tb of banco_reg_tb at 10( 142) + 0 on 52;
+file . "mux16sl5.vhd" "834d04cadb182b859f57f9d5f0890570ff2bcdc3" "20180607002048.518":
+  entity mux16sl5 at 1( 0) + 0 on 63;
+  architecture a_mux16sl5 of mux16sl5 at 44( 1411) + 0 on 64;
