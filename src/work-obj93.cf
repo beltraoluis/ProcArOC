@@ -1,28 +1,40 @@
 v 4
-file . "banco_reg_tb.vhd" "82ec462918f600900ffedcf034619fe709fed7cd" "20180512210507.462":
-  entity banco_reg_tb at 1( 0) + 0 on 27;
-  architecture a_banco_reg_tb of banco_reg_tb at 10( 142) + 0 on 28;
-file . "ula_tb.vhd" "0ec140082a048b7a71be0e55002da86502cd59c2" "20180512210507.277":
-  entity ula_tb at 1( 0) + 0 on 23;
-  architecture a_ula_tb of ula_tb at 10( 135) + 0 on 24;
-file . "banco_reg.vhd" "c3660b0d31c655739e2be019d9b22ec2cb7321aa" "20180512210506.873":
-  entity banco_reg at 1( 0) + 0 on 19;
-  architecture a_banco_reg of banco_reg at 18( 413) + 0 on 20;
-file . "mux5bits.vhd" "479fff394405ae1da4d01952b50a304137b76ae7" "20180512210506.503":
-  entity mux5bits at 1( 0) + 0 on 15;
-  architecture a_mux5bits of mux5bits at 44( 1411) + 0 on 16;
-file . "ula.vhd" "0bbd2dcff7291f29544404fa7007b23ff957f2bb" "20180512210506.121":
-  entity ula at 1( 0) + 0 on 11;
-  architecture a_ula of ula at 15( 287) + 0 on 12;
-file . "reg16bits.vhd" "8bf50f86247b4126cc8bacaf8b881fc8bf598cf8" "20180512210506.321":
-  entity reg16bits at 1( 0) + 0 on 13;
-  architecture a_reg16bits of reg16bits at 15( 287) + 0 on 14;
-file . "demux5bits.vhd" "09c884674dc0f98ed3e55458ffbc2f977d34f20c" "20180512210506.688":
-  entity demux5bits at 1( 0) + 0 on 17;
-  architecture a_demux5bits of demux5bits at 44( 1051) + 0 on 18;
-file . "reg_ula.vhd" "15a734a364301e6712658a8696f7789b709b0df9" "20180512210507.075":
-  entity reg_ula at 1( 0) + 0 on 21;
-  architecture a_reg_ula of reg_ula at 19( 433) + 0 on 22;
+file . "mux13sl2.vhd" "570274bc3caed39eea4690ac3a24806bda118f04" "20180607000704.757":
+  entity mux13sl2 at 1( 0) + 0 on 61;
+  architecture a_mux13sl2 of mux13sl2 at 16( 361) + 0 on 62;
+file . "mux13sl1.vhd" "2dc31ba8afbde562ded6042dff4ee7d216120be3" "20180607000536.469":
+  entity mux13sl1 at 1( 0) + 0 on 59;
+  architecture a_mux13sl1 of mux13sl1 at 14( 270) + 0 on 60;
+file . "demux10sl4.vhd" "be151eaba80df8e0fccb9738dff7549ce67449b4" "20180606234941.958":
+  entity demux10to4 at 1( 0) + 0 on 55;
+  architecture a_demux10to4 of demux10to4 at 16( 374) + 0 on 56;
+file . "mux16sl4.vhd" "343621075115b18e9d71f03cfc5540d736b85568" "20180606231805.943":
+  entity mux16sl4 at 1( 0) + 0 on 29;
+  architecture a_mux16sl4 of mux16sl4 at 16( 361) + 0 on 30;
 file . "reg16bits_tb.vhd" "dc2fe58b91df46541562ef1f9e538b47f04b701e" "20180512210507.377":
   entity reg16bits_tb at 1( 0) + 0 on 25;
   architecture a_reg16bits_tb of reg16bits_tb at 10( 141) + 0 on 26;
+file . "reg_ula.vhd" "15a734a364301e6712658a8696f7789b709b0df9" "20180606233856.409":
+  entity reg_ula at 1( 0) + 0 on 33;
+  architecture a_reg_ula of reg_ula at 19( 433) + 0 on 34;
+file . "demux5bits.vhd" "09c884674dc0f98ed3e55458ffbc2f977d34f20c" "20180512210506.688":
+  entity demux5bits at 1( 0) + 0 on 17;
+  architecture a_demux5bits of demux5bits at 44( 1051) + 0 on 18;
+file . "reg16bits.vhd" "8bf50f86247b4126cc8bacaf8b881fc8bf598cf8" "20180512210506.321":
+  entity reg16bits at 1( 0) + 0 on 13;
+  architecture a_reg16bits of reg16bits at 15( 287) + 0 on 14;
+file . "ula.vhd" "0bbd2dcff7291f29544404fa7007b23ff957f2bb" "20180606233912.186":
+  entity ula at 1( 0) + 0 on 35;
+  architecture a_ula of ula at 15( 287) + 0 on 36;
+file . "mux5bits.vhd" "479fff394405ae1da4d01952b50a304137b76ae7" "20180512210506.503":
+  entity mux5bits at 1( 0) + 0 on 15;
+  architecture a_mux5bits of mux5bits at 44( 1411) + 0 on 16;
+file . "banco_reg.vhd" "c3660b0d31c655739e2be019d9b22ec2cb7321aa" "20180606234941.776":
+  entity banco_reg at 1( 0) + 0 on 53;
+  architecture a_banco_reg of banco_reg at 18( 413) + 0 on 54;
+file . "ula_tb.vhd" "0ec140082a048b7a71be0e55002da86502cd59c2" "20180512210507.277":
+  entity ula_tb at 1( 0) + 0 on 23;
+  architecture a_ula_tb of ula_tb at 10( 135) + 0 on 24;
+file . "banco_reg_tb.vhd" "82ec462918f600900ffedcf034619fe709fed7cd" "20180606234941.664":
+  entity banco_reg_tb at 1( 0) + 0 on 51;
+  architecture a_banco_reg_tb of banco_reg_tb at 10( 142) + 0 on 52;
