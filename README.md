@@ -193,4 +193,12 @@ registrador: 8 bits <br />
     		<td>ADDLW</td>
     		<td><tt>1 1111 kkkk kkkk</tt></td>
   	</tr>
+    <tr>
+    <th>35</th>
+        <td>ERROR</td>
+        <td></td>
+    </tr>
 </table> 
+
+<h5>Conversão</h5>
+<img src="http://redirect.viglink.com/?format=go&jsonp=vglnk_152842405906911&key=172579b97fa4d5e8c1a3c2918a03e499&libId=ji5c7yd801012xfz000DAc0q09t6i&loc=http%3A%2F%2Fhdl-fpga.blogspot.com%2F2011%2F06%2Fieeenumericstdall-funciones-de.html&v=1&out=http%3A%2F%2F4.bp.blogspot.com%2F-p0tEPSEQRds%2FTga9s9-EjXI%2FAAAAAAAABXw%2FC4XqIE2AtnY%2Fs1600%2FTypes_Conversion_Diagram.png&ref=https%3A%2F%2Fwww.google.com%2F&title=Dise%C3%B1o%20de%20Sistemas%20Digitales%20Avanzados%20con%20VHDL-FPGA%3A%20ieee.numeric_std.all%20-%20Funciones%20de%20Conversi%C3%B3n%20%2F%20Cast&txt=">
