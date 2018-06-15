@@ -36,12 +36,12 @@ registrador: 8 bits <br />
   	<tr>
 		<th>3</th>
     		<td>SLEEP</td>
-    		<td><tt>0 0000 0110 0011</tt></td>
+    		<td><tt>0 0000 0010 0011</tt></td>
   	</tr>
   	<tr>
 		<th>4</th>
     		<td>CLRWDT</td>
-    		<td><tt>0 0000 0110 0100</tt></td>
+    		<td><tt>0 0000 0010 0100</tt></td>
   	</tr>
   	<tr>
 		<th>5</th>
