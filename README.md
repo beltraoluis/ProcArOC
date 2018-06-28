@@ -321,7 +321,7 @@ registrador: 8 bits <br />
 	<tr>
 		<th>61</th>
 		<th>STATUS</th>
-    		<th>Valor na RAM no endereço FSR</th>
+    		<th>variaveis de controle</th>
   	</tr>
 	<tr>
 	<tr>
