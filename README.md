@@ -219,17 +219,122 @@ registrador: 8 bits <br />
     		<th>endereço de acesso a RAM</th>
   	</tr>
 	<tr>
-		<th>2:125</th>
-		<th>REG#</th>
+		<th>2</th>
+		<th>TRISA</th>
+    		<th>controle de estasdos PORTA</th>
+  	</tr>
+	<tr>
+		<th>3</th>
+		<th>TRISB</th>
+    		<th>controle de estasdos PORTB</th>
+  	</tr>
+	<tr>
+		<th>4</th>
+		<th>PORTA</th>
+    		<th>pinos externos A</th>
+  	</tr>
+	<tr>
+		<th>5</th>
+		<th>PORTB</th>
+    		<th>pinos externos B</th>
+  	</tr>
+	<tr>
+		<th>6</th>
+		<th>$1</th>
     		<th>valor no registrador</th>
   	</tr>
 	<tr>
-		<th>126</th>
+		<th>7</th>
+		<th>$2</th>
+    		<th>valor no registrador</th>
+  	</tr>
+	<tr>
+		<th>8</th>
+		<th>$3</th>
+    		<th>valor no registrador</th>
+  	</tr>
+	<tr>
+		<th>9</th>
+		<th>$4</th>
+    		<th>valor no registrador</th>
+  	</tr>
+	<tr>
+		<th>10</th>
+		<th>$5</th>
+    		<th>valor no registrador</th>
+  	</tr>
+	<tr>
+		<th>11</th>
+		<th>$6</th>
+    		<th>valor no registrador</th>
+  	</tr>
+	<tr>
+		<th>12</th>
+		<th>$7</th>
+    		<th>valor no registrador</th>
+  	</tr>
+	<tr>
+		<th>13</th>
+		<th>$8</th>
+    		<th>valor no registrador</th>
+  	</tr>
+	<tr>
+		<th>14</th>
+		<th>$9</th>
+    		<th>valor no registrador</th>
+  	</tr>
+	<tr>
+		<th>15</th>
+		<th>$10</th>
+    		<th>valor no registrador</th>
+  	</tr>
+	<tr>
+		<th>16</th>
+		<th>$11</th>
+    		<th>valor no registrador</th>
+  	</tr>
+	<tr>
+		<th>17</th>
+		<th>$12</th>
+    		<th>valor no registrador</th>
+  	</tr>
+	<tr>
+		<th>18</th>
+		<th>$13</th>
+    		<th>valor no registrador</th>
+  	</tr>
+	<tr>
+		<th>19</th>
+		<th>$14</th>
+    		<th>valor no registrador</th>
+  	</tr>
+	<tr>
+		<th>20</th>
+		<th>$15</th>
+    		<th>valor no registrador</th>
+  	</tr>
+	<tr>
+		<th>21:60</th>
+		<th>...</th>
+    		<th>...</th>
+  	</tr>
+	<tr>
+		<th>61</th>
+		<th>STATUS</th>
+    		<th>Valor na RAM no endereço FSR</th>
+  	</tr>
+	<tr>
+	<tr>
+		<th>62</th>
+		<th>INDF</th>
+    		<th>Valor na RAM no endereço FSR</th>
+  	</tr>
+		<th>62</th>
 		<th>INDF</th>
     		<th>Valor na RAM no endereço FSR</th>
   	</tr>
 	<tr>
-		<th>127</th>
+		<th>63</th>
 		<th>W</th>
     		<th>registrador de trabalho</th>
   	</tr>
