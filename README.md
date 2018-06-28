@@ -221,12 +221,12 @@ registrador: 8 bits <br />
 	<tr>
 		<th>2</th>
 		<th>TRISA</th>
-    		<th>controle de estasdos PORTA</th>
+    		<th>controle de estados PORTA</th>
   	</tr>
 	<tr>
 		<th>3</th>
 		<th>TRISB</th>
-    		<th>controle de estasdos PORTB</th>
+    		<th>controle de estados PORTB</th>
   	</tr>
 	<tr>
 		<th>4</th>
