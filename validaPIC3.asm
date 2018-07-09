@@ -20,7 +20,7 @@
 			MOVWF $1          ; 11 ; 0046 ; 0000001000110 ; w -> $1
 			BTFSC $1,7        ; 12 ; 0dc6 ; 0110111000110 ; pula a proxima instrução se fsr > w
 			GOTO crivo2       ; 13 ; 140c ; 1010000001100
-			MOVLW 3           ; 14 ; 1803 ; 1100000000011 ; 3 -> w
+			MOVLW 6           ; 14 ; 1806 ; 1100000000011 ; 6 -> w
 			MOVWF FSR         ; 15 ; 0041 ; 0000001000001 ; w -> fsr
 	crivo3: CLRF INDF         ; 16 ; 00fe ; 0000011111110 ; 0 -> indf[fsr]
 			INCF FSR,1        ; 17 ; 0541 ; 0010101000001 ; fsr++
@@ -31,7 +31,7 @@
 			MOVWF $1          ; 1c ; 0046 ; 0000001000110 ; w -> $1
 			BTFSC $1,7        ; 1d ; 0dc6 ; 0110111000110 ; pula a proxima instrução se fsr > w
 			GOTO crivo3		  ; 1e ; 1416 ; 1010000010110
-			MOVLW 5           ; 1f ; 1805 ; 1100000000101 ; 5 -> w
+			MOVLW 10          ; 1f ; 1810 ; 1100000000101 ; 10 -> w
 			MOVWF FSR         ; 20 ; 0041 ; 0000001000001 ; w -> fsr
 	crivo5: CLRF INDF         ; 21 ; 00fe ; 0000011111110 ; 0 -> indf[fsr]
 			MOVLW 5           ; 22 ; 1805 ; 1100000000101 ; 5 -> w
@@ -54,7 +54,7 @@
 			MOVWF $1          ; 33 ; 0046 ; 0000001000110 ; w -> $1
 			BTFSC $1,7        ; 34 ; 0dc6 ; 0110111000110 ; pula a proxima instrução se fsr > w
 			GOTO loop2		  ; 35 ; 142b ; 1010000101011
-			GOTO loop2		  ; 36 ; 1429 ; 1010000101001
+			GOTO loop		  ; 36 ; 1429 ; 1010000101001
 	show:	MOVF INDF,0       ; 37 ; 043e ; 0010000111110 ; indif -> w
 			MOVWF PORTB		  ; 38 ; 0045 ; 0000001000101 ; w -> portb
 			GOTO loop2		  ; 39 ; 142b ; 1010000101011
